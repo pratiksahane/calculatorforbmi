@@ -1,0 +1,96 @@
+﻿<div class="result-container" style="display: block; background: #f8f9fa; border-radius: 10px; padding: 25px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 500px; margin: 20px auto;">
+    <h3 style="color: #2c3e50; text-align: center; margin-bottom: 20px; font-weight: 600;">Your BMI Results</h3>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+        <div class="result-item" style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <p style="margin: 0; color: #7f8c8d; font-size: 14px;">Height</p>
+            <p style="margin: 5px 0 0; font-size: 18px; font-weight: 600; color: #2c3e50;">@Math.Ceiling(@ViewBag.height) cm</p>
+        </div>
+
+        <div class="result-item" style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <p style="margin: 0; color: #7f8c8d; font-size: 14px;">Weight</p>
+            <p style="margin: 5px 0 0; font-size: 18px; font-weight: 600; color: #2c3e50;">@ViewBag.weight kg</p>
+        </div>
+
+        <div class="result-item" style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <p style="margin: 0; color: #7f8c8d; font-size: 14px;">Age</p>
+            <p style="margin: 5px 0 0; font-size: 18px; font-weight: 600; color: #2c3e50;">@ViewBag.age</p>
+        </div>
+
+        <div class="result-item" style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <p style="margin: 0; color: #7f8c8d; font-size: 14px;">BMI</p>
+            <p style="margin: 5px 0 0; font-size: 18px; font-weight: 600;
+               color: @(ViewBag.bmi < 18.5 ? "#3498db" :
+                                     ViewBag.bmi < 25 ? "#2ecc71" :
+                                     ViewBag.bmi < 30 ? "#f39c12" : "#e74c3c");">
+                @ViewBag.bmi
+            </p>
+        </div>
+    </div>
+
+    @{
+        string bmiCategory = "";
+        string categoryColor = "";
+        if (ViewBag.bmi < 18.5)
+        {
+            bmiCategory = "Underweight";
+            categoryColor = "#3498db";
+        }
+        else if (ViewBag.bmi < 25)
+        {
+            bmiCategory = "Normal weight";
+            categoryColor = "#2ecc71";
+        }
+        else if (ViewBag.bmi < 30)
+        {
+            bmiCategory = "Overweight";
+            categoryColor = "#f39c12";
+        }
+        else
+        {
+            bmiCategory = "Obese";
+            categoryColor = "#e74c3c";
+        }
+    }
+
+    <div style="text-align: center; margin-top: 15px;">
+        <p style="margin: 0; font-size: 16px;">Your BMI category:</p>
+        <p style="margin: 5px 0 0; font-size: 20px; font-weight: 600; color: @categoryColor">@bmiCategory</p>
+    </div>
+</div>
+<!-- Gemini Advice Section -->
+@if (!string.IsNullOrEmpty(ViewBag.GeminiAdvice as string))
+{
+    <div class="mt-4">
+        <h3><span class="emoji">💡</span> Personalized Health Advice</h3>
+        <div class="alert alert-info gemini-advice">
+            @Html.Raw(ViewBag.GeminiAdvice.Replace("\n", "<br/>"))
+        </div>
+    </div>
+}
+else
+{
+    <div class="mt-4 alert alert-warning">
+        <p>No personalized advice available at this time.</p>
+    </div>
+}
+</div>
+
+<style>
+    .gemini-advice {
+        background-color: #e7f5fe;
+        border-left: 4px solid #17a2b8;
+        padding: 20px;
+        border-radius: 4px;
+    }
+
+    .emoji {
+        font-size: 1.2em;
+        margin-right: 8px;
+    }
+
+    h3 {
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+</style>

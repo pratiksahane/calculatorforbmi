@@ -1,0 +1,149 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<table>
+    <tr>
+        <td style="width: 80%;">
+            <!-- Set a fixed width for the carousel column -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" style="width: 100%; height: 80vh;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100">
+                        <img src="images/image1.png" class="d-block mx-auto h-100" style="object-fit: contain;" alt="Hero Image">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="images/image2.png" class="d-block mx-auto h-100" style="object-fit: contain;" alt="heroimage">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="images/image3.png" class="d-block mx-auto h-100" style="object-fit: contain;" alt="heroimage">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </td>
+        <td style="width: 20%;">
+            <!-- Set a fixed width for the welcome text column -->
+            <div class="text-center">
+                <h1 class="display-4">Welcome</h1>
+                <p>Learn about <a asp-controller="Home" asp-action="calculator">your Body mass index by clicking here</a>.</p>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<!-- Blog Content Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center mb-4">Latest Health & Wellness Blog Posts</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Blog Post 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="images/4.jpg" class="card-img-top" alt="Understanding BMI" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Understanding Your BMI: More Than Just Numbers</h5>
+                    <p class="card-text">Body Mass Index is a useful tool, but it's important to understand its limitations and what it really tells us about our health.</p>
+                    <p class="text-muted small">Published: January 15, 2024</p>
+                    <a href="https://www.healthline.com/health/how-do-i-calculate-my-bmi#1" target="_blank" class="btn btn-primary mt-auto">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="images/5.jpg" class="card-img-top" alt="Healthy Nutrition" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">10 Simple Nutrition Tips for Better Health</h5>
+                    <p class="card-text">Discover easy ways to improve your diet and maintain a healthy lifestyle with these practical nutrition guidelines.</p>
+                    <p class="text-muted small">Published: January 10, 2024</p>
+                    <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/nutrition-rules-that-will-fuel-your-workout/art-20390073" target="_blank" class="btn btn-primary mt-auto">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="images/6.jpeg" class="card-img-top" alt="Exercise Guide" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Exercise and Weight Management</h5>
+                    <p class="card-text">Learn how different types of exercise can help you achieve and maintain a healthy weight effectively.</p>
+                    <p class="text-muted small">Published: January 5, 2024</p>
+                    <a href="https://www.webmd.com/parenting/features/fit-connection-weight" target="_blank" class="btn btn-primary mt-auto">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Articles Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h3 class="text-center mb-4">Featured Articles</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="images/7.jpg" class="card-img h-100" alt="Mental Health" style="object-fit: cover;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Mental Health and Physical Wellness</h5>
+                            <p class="card-text">Exploring the connection between mental health and physical well-being for holistic health.</p>
+                            <p class="card-text"><small class="text-muted">December 28, 2023</small></p>
+                            <a href="https://www.verywellmind.com/the-mental-and-physical-health-connection-7255857" target="_blank" class="btn btn-outline-primary btn-sm">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="images/8.jpg" class="card-img h-100" alt="Sleep Health" style="object-fit: cover;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">The Importance of Quality Sleep</h5>
+                            <p class="card-text">How proper sleep affects your metabolism, weight, and overall health outcomes.</p>
+                            <p class="card-text"><small class="text-muted">December 25, 2023</small></p>
+                            <a href="https://www.sleepfoundation.org/how-sleep-works/why-do-we-need-sleep" target="_blank" class="btn btn-outline-primary btn-sm">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="text-center bg-light p-4 rounded">
+                <h4>Stay Updated with Our Latest Posts</h4>
+                <p>Get the latest health and wellness tips delivered to your inbox.</p>
+                <a href="https://www.cdc.gov/healthyweight/index.html" target="_blank" class="btn btn-success btn-lg">View All Health Resources</a>
+            </div>
+        </div>
+    </div>
+</div>

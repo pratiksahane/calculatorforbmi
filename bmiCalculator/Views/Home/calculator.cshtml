@@ -1,0 +1,383 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<style>
+    /* body {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } */
+
+    .calculator-container {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        margin-top: 50px;
+        max-width: 500px;
+    }
+
+    .form-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+        .form-header h2 {
+            color: #2d3748;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .form-header p {
+            color: #718096;
+            margin-bottom: 0;
+        }
+
+    .input-group {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #2d3748;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+        .form-label i {
+            margin-right: 8px;
+            color: #667eea;
+            width: 16px;
+        }
+
+    .form-control {
+        border: 2px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 12px 16px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        background: #ffffff;
+    }
+
+        .form-control:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+            background: #ffffff;
+        }
+
+    .unit-selector {
+        display: flex;
+        gap: 10px;
+        margin-top: 8px;
+    }
+
+    .unit-btn {
+        flex: 1;
+        padding: 6px 12px;
+        border: 2px solid #e2e8f0;
+        background: white;
+        border-radius: 8px;
+        font-size: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+    }
+
+        .unit-btn.active {
+            background: #667eea;
+            border-color: #667eea;
+            color: white;
+        }
+
+        .unit-btn:hover {
+            border-color: #667eea;
+        }
+
+    .submit-btn {
+        width: 100%;
+        padding: 15px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 10px;
+    }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+    .result-container {
+        margin-top: 30px;
+        padding: 20px;
+        background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+        border-radius: 12px;
+        text-align: center;
+        display: none;
+    }
+
+    .bmi-value {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #2d3748;
+        margin-bottom: 10px;
+    }
+
+    .bmi-category {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .bmi-description {
+        color: #718096;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .category-underweight {
+        color: #3182ce;
+    }
+
+    .category-normal {
+        color: #38a169;
+    }
+
+    .category-overweight {
+        color: #d69e2e;
+    }
+
+    .category-obese {
+        color: #e53e3e;
+    }
+
+    .feet-inches-input {
+        display: none;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 8px;
+    }
+
+        .feet-inches-input input {
+            flex: 1;
+        }
+    {
+        margin: 20px;
+        padding: 30px 20px;
+    }
+
+    .unit-selector {
+        flex-direction: column;
+    }
+
+    @@media (max-width: 768px) {
+        .calculator-container
+
+    {
+        margin: 20px;
+        padding: 30px 20px;
+    }
+
+    .unit-selector {
+        flex-direction: column;
+    }
+    }
+</style>
+
+<div class="container d-flex justify-content-center">
+    <div class="calculator-container">
+        <div class="form-header">
+            <h2><i class="bi bi-activity"></i> BMI Calculator</h2>
+            <p>Calculate your Body Mass Index to understand your health status</p>
+        </div>
+
+        <form id="bmiForm" method="post" action="ShowData">
+            <!-- Height Input -->
+            <div class="input-group">
+                <label class="form-label">
+                    <i class="bi bi-clipboard-pulse"></i>
+                    Height
+                </label>
+                <input type="number"
+                       class="form-control m-1"
+                       id="height"
+                       name="height"
+                       placeholder="Enter your height"
+                       step="0.01"
+                       min="0"
+                       required>
+                <div class="feet-inches-input" id="feetInchesInput">
+                    <input type="number"
+                           class="form-control m-1"
+                           id="feet"
+                           name="feet"
+                           placeholder="Feet"
+                           min="0"
+                           max="8">
+                    <input type="number"
+                           class="form-control m-1"
+                           id="inches"
+                           name="inches"
+                           placeholder="Inches"
+                           min="0"
+                           max="11"
+                           step="0.1">
+                </div>
+                <div class="unit-selector">
+                    <button type="button" class="unit-btn active" data-unit="cm" onclick="setHeightUnit('cm')">
+                        Centimeters (cm)
+                    </button>
+                    <button type="button" class="unit-btn" data-unit="ft" onclick="setHeightUnit('ft')">
+                        Feet & Inches
+                    </button>
+                </div>
+                <input type="hidden" id="heightUnit" name="heightUnit" value="cm">
+            </div>
+
+            <!-- Weight Input -->
+            <div class="input-group">
+                <label class="form-label">
+                    <i class="bi bi-speedometer2"></i>
+                    Weight
+                </label>
+                <input type="number"
+                       class="form-control m-1"
+                       id="weight"
+                       name="weight"
+                       placeholder="Enter your weight"
+                       step="0.1"
+                       min="0"
+                       required>
+                <div class="unit-selector">
+                    <button type="button" class="unit-btn active" data-unit="kg" onclick="setWeightUnit('kg')">
+                        Kilograms (kg)
+                    </button>
+                    <button type="button" class="unit-btn" data-unit="lbs" onclick="setWeightUnit('lbs')">
+                        Pounds (lbs)
+                    </button>
+                </div>
+                <input type="hidden" id="weightUnit" name="weightUnit" value="kg">
+            </div>
+
+            <!-- Age Input -->
+            <div class="input-group">
+                <label class="form-label">
+                    <i class="bi bi-person"></i>
+                    Age
+                </label>
+                <input type="number"
+                       class="form-control m-1"
+                       id="age"
+                       name="age"
+                       placeholder="Enter your age"
+                       min="1"
+                       max="120"
+                       required>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-calculator me-2"></i>Calculate BMI
+            </button>
+        </form>
+
+        @* Display results from ViewBag if available *@
+        @if (ViewBag.BMI != null)
+        {
+            <div class="result-container" style="display: block;">
+                <div class="bmi-value">@ViewBag.BMI</div>
+                <div class="bmi-category @ViewBag.CategoryClass">@ViewBag.Category</div>
+                <div class="bmi-description">@ViewBag.Description</div>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    // Function to set height unit
+    function setHeightUnit(unit) {
+        document.getElementById('heightUnit').value = unit;
+
+        // Update active button styling for height
+        document.querySelectorAll('.input-group:first-of-type .unit-btn').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.getAttribute('data-unit') === unit) {
+                btn.classList.add('active');
+            }
+        });
+
+        // Show/hide appropriate input fields
+        const heightInput = document.getElementById('height');
+        const feetInchesInput = document.getElementById('feetInchesInput');
+
+        if (unit === 'ft') {
+            heightInput.style.display = 'none';
+            feetInchesInput.style.display = 'flex';
+            heightInput.removeAttribute('required');
+            document.getElementById('feet').setAttribute('required', '');
+            document.getElementById('inches').setAttribute('required', '');
+        } else {
+            heightInput.style.display = 'block';
+            feetInchesInput.style.display = 'none';
+            heightInput.setAttribute('required', '');
+            document.getElementById('feet').removeAttribute('required');
+            document.getElementById('inches').removeAttribute('required');
+        }
+
+        // Update placeholder text
+        if (unit === 'cm') {
+            heightInput.placeholder = 'Enter your height in centimeters';
+        }
+    }
+
+    // Function to set weight unit
+    function setWeightUnit(unit) {
+        document.getElementById('weightUnit').value = unit;
+
+        // Update active button styling for weight
+        document.querySelectorAll('.input-group:nth-of-type(2) .unit-btn').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.getAttribute('data-unit') === unit) {
+                btn.classList.add('active');
+            }
+        });
+
+        // Update placeholder text
+        const weightInput = document.getElementById('weight');
+        if (unit === 'kg') {
+            weightInput.placeholder = 'Enter your weight in kilograms';
+        } else {
+            weightInput.placeholder = 'Enter your weight in pounds';
+        }
+    }
+
+    // Clear feet/inches when cm is selected and vice versa
+    document.getElementById('bmiForm').addEventListener('submit', function(e) {
+        const heightUnit = document.getElementById('heightUnit').value;
+
+        if (heightUnit === 'cm') {
+            // Clear feet/inches values when using cm
+            document.getElementById('feet').value = '';
+            document.getElementById('inches').value = '';
+        } else {
+            // Clear height value when using feet/inches
+            document.getElementById('height').value = '';
+        }
+    });
+</script>

@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\views\\home\\blogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\views\\home\\blogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\views\\home\\showdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\views\\home\\showdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\models\\bmidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\models\\bmidata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\services\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\services\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\services\\igeminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\services\\igeminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\bmicalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\bmicalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\views\\home\\calculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\views\\home\\calculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|c:\\users\\prati\\source\\repos\\bmicalculator\\bmicalculator\\models\\bmi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246283A9-6400-4815-AE98-AAF224B1A01A}|bmiCalculator\\bmiCalculator.csproj|solutionrelative:bmicalculator\\models\\bmi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "bmiCalculator\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "bmiCalculator\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwMUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:32:51.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\appsettings.json",
+              "RelativeDocumentMoniker": "bmiCalculator\\appsettings.json",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\appsettings.json",
+              "RelativeToolTip": "bmiCalculator\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T15:16:19.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShowData.cshtml",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\ShowData.cshtml",
+              "RelativeDocumentMoniker": "bmiCalculator\\Views\\Home\\ShowData.cshtml",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\ShowData.cshtml",
+              "RelativeToolTip": "bmiCalculator\\Views\\Home\\ShowData.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwFYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-26T15:13:13.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "bmiCalculator\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "bmiCalculator\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T15:01:08.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Blogs.cshtml",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\Blogs.cshtml",
+              "RelativeDocumentMoniker": "bmiCalculator\\Views\\Home\\Blogs.cshtml",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\Blogs.cshtml",
+              "RelativeToolTip": "bmiCalculator\\Views\\Home\\Blogs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T15:05:00.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "calculator.cshtml",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\calculator.cshtml",
+              "RelativeDocumentMoniker": "bmiCalculator\\Views\\Home\\calculator.cshtml",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\calculator.cshtml",
+              "RelativeToolTip": "bmiCalculator\\Views\\Home\\calculator.cshtml",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAAABUBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T14:38:21.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "bmiCalculator\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "bmiCalculator\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T14:23:17.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "bmiCalculator\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "bmiCalculator\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T11:18:08.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "bmiCalculator\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "bmiCalculator\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T14:49:51.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Services\\GeminiService.cs",
+              "RelativeDocumentMoniker": "bmiCalculator\\Services\\GeminiService.cs",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Services\\GeminiService.cs",
+              "RelativeToolTip": "bmiCalculator\\Services\\GeminiService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswC4AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T15:18:26.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "bmiCalculator\\Program.cs",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Program.cs",
+              "RelativeToolTip": "bmiCalculator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T15:22:40.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BmiData.cs",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Models\\BmiData.cs",
+              "RelativeDocumentMoniker": "bmiCalculator\\Models\\BmiData.cs",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Models\\BmiData.cs",
+              "RelativeToolTip": "bmiCalculator\\Models\\BmiData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T06:04:01.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGeminiService.cs",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Services\\IGeminiService.cs",
+              "RelativeDocumentMoniker": "bmiCalculator\\Services\\IGeminiService.cs",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Services\\IGeminiService.cs",
+              "RelativeToolTip": "bmiCalculator\\Services\\IGeminiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T06:06:57.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "bmiCalculator.csproj",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\bmiCalculator.csproj",
+              "RelativeDocumentMoniker": "bmiCalculator\\bmiCalculator.csproj",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\bmiCalculator.csproj",
+              "RelativeToolTip": "bmiCalculator\\bmiCalculator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-02T15:20:08.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bmi.cs",
+              "DocumentMoniker": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Models\\Bmi.cs",
+              "RelativeDocumentMoniker": "bmiCalculator\\Models\\Bmi.cs",
+              "ToolTip": "C:\\Users\\prati\\source\\repos\\bmiCalculator\\bmiCalculator\\Models\\Bmi.cs",
+              "RelativeToolTip": "bmiCalculator\\Models\\Bmi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T14:33:17.857Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

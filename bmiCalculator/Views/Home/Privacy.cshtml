@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy - BMI Calculator";
+}
+
+<div class="container privacy-policy">
+    <h1 class="display-4 mb-4">
+        <svg class="bi me-2" width="36" height="36" fill="currentColor">
+            <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#shield-lock" />
+        </svg>
+        Privacy Policy
+    </h1>
+
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body">
+            <h2 class="h4">
+                <svg class="bi me-2" width="24" height="24" fill="currentColor">
+                    <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#info-square" />
+                </svg>
+                Last Updated: @DateTime.Now.ToString("MMMM d, yyyy")
+            </h2>
+            <p>Thank you for using our BMI Calculator. Your privacy is important to us.</p>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body">
+            <h3 class="h5">
+                <svg class="bi me-2" width="24" height="24" fill="currentColor">
+                    <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#collection" />
+                </svg>
+                Information We Collect
+            </h3>
+            <ul>
+                <li><strong>No Personal Data:</strong> We do not collect or store any personally identifiable information.</li>
+                <li><strong>Calculation Data:</strong> Your height, weight, and age inputs are processed locally in your browser and never sent to our servers.</li>
+                <li><strong>Anonymous Analytics:</strong> We may use basic analytics to understand usage patterns (number of visits, etc.) without identifying individual users.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body">
+            <h3 class="h5">
+                <svg class="bi me-2" width="24" height="24" fill="currentColor">
+                    <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#cpu" />
+                </svg>
+                How We Process Data
+            </h3>
+            <p>All BMI calculations occur entirely within your web browser. No health data is transmitted to or stored on our servers.</p>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body">
+            <h3 class="h5">
+                <svg class="bi me-2" width="24" height="24" fill="currentColor">
+                    <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#cookie" />
+                </svg>
+                Cookies & Tracking
+            </h3>
+            <p>We use only essential session cookies for basic functionality. No third-party tracking cookies are employed.</p>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-body">
+            <h3 class="h5">
+                <svg class="bi me-2" width="24" height="24" fill="currentColor">
+                    <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#shield-exclamation" />
+                </svg>
+                Third-Party Services
+            </h3>
+            <p>When using our AI-powered advice feature, your BMI data is temporarily processed by Google's Gemini API. This data is not stored by Google after processing.</p>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-body">
+            <h3 class="h5">
+                <svg class="bi me-2" width="24" height="24" fill="currentColor">
+                    <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#question-circle" />
+                </svg>
+                Contact Us
+            </h3>
+            <p>For privacy-related questions, please contact us at <a href="mailto:astayuno14032005@gmail.com">privacy@bmicalculator.com</a>.</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .privacy-policy {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+        .privacy-policy h3 {
+            color: #2c3e50;
+            margin-top: 1.5rem;
+        }
+
+        .privacy-policy ul {
+            padding-left: 1.5rem;
+        }
+
+        .privacy-policy li {
+            margin-bottom: 0.5rem;
+        }
+</style>

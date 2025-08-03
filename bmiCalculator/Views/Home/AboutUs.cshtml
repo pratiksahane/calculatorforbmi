@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "About Us - BMI Calculator";
+}
+
+<div class="container py-4">
+    <div class="text-center mb-5">
+        <h1 class="display-4">
+            <svg class="bi me-2" width="36" height="36" fill="currentColor">
+                <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#info-circle" />
+            </svg>
+            About BMI Tracker
+        </h1>
+        <p class="lead">Your trusted health companion</p>
+    </div>
+
+    <div class="row g-4">
+        <!-- First Row -->
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <svg class="bi text-primary me-3" width="32" height="32" fill="currentColor">
+                            <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#heart" />
+                        </svg>
+                        <h3 class="mb-0">Our Mission</h3>
+                    </div>
+                    <p>We provide accurate BMI calculations with AI-powered health insights to help you understand your weight status and make informed health decisions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <svg class="bi text-primary me-3" width="32" height="32" fill="currentColor">
+                            <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#calculator" />
+                        </svg>
+                        <h3 class="mb-0">BMI Science</h3>
+                    </div>
+                    <p>Body Mass Index is a simple screening tool that helps categorize weight status. While not perfect, it's a useful starting point for health awareness.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <svg class="bi text-primary me-3" width="32" height="32" fill="currentColor">
+                            <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#shield-check" />
+                        </svg>
+                        <h3 class="mb-0">Your Privacy</h3>
+                    </div>
+                    <p>We take your health data seriously. All calculations are performed locally in your browser, and we never store your personal information.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <svg class="bi text-primary me-3" width="32" height="32" fill="currentColor">
+                            <use xlink:href="/lib/bootstrap-icons/bootstrap-icons.svg#book" />
+                        </svg>
+                        <h3 class="mb-0">Our Source</h3>
+                    </div>
+                    <p>BMI Calculator is made specifically for health-conscious individuals, fulfilling daily needs for calculating Body Mass Index by simply providing Height, Weight and Age.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style>
+    .card {
+        transition: transform 0.2s;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+</style>
